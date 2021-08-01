@@ -12,7 +12,7 @@ class CicdExample1ApplicationTests {
 	public static Logger logger=LoggerFactory.getLogger(CicdExample1Application.class);
 
 	@Test
-	 contextLoads() {
+	public void contextLoads() {
 		logger.info("Testcase executed...");
 		assertEquals(true, true);
 	}
